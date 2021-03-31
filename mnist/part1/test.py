@@ -314,7 +314,7 @@ def check_rbf_kernel():
 def main():
     log(green("PASS"), "Import mnist project")
     try:
-        '''check_get_mnist()
+        check_get_mnist()
         check_closed_form()
         check_svm()
         check_compute_probabilities()
@@ -322,7 +322,6 @@ def main():
         check_run_gradient_descent_iteration()
         check_update_y()
         check_project_onto_PC()
-        '''
         check_polynomial_kernel()
         check_rbf_kernel()
     except Exception:
